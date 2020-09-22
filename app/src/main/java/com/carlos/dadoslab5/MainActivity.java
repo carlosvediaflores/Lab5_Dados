@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 datos.clear();
                 int suma =0;
                 for(int i =0;i<size;i++){
-                    int number= ThreadLocalRandom.current().nextInt(1,6);
+                    int number= ThreadLocalRandom.current().nextInt(1,7);
                     suma+=number;
                     datos.add(number+"");
                 }
